@@ -5,8 +5,17 @@
 }
 
 body {
-  font-family: 'Lato', sans-serif;
+  font-family: 'Shadows Into Light', cursive;
   color: #384047;
+  background-image: linear-gradient(to left, #DE6262 , #FFB88C);
+}
+
+.main-nav {
+  list-style: none;
+  text-decoration: none;
+  text-align: right;
+  margin-top: 2%;
+  margin-right: 5%;
 }
 
 form {
@@ -15,7 +24,7 @@ form {
   padding: 10px 20px;
   background: #ffffff;
   border-radius: 8px;
-  border-style: inset;
+  border-style: double;
   border-color: black;
 }
 
@@ -36,8 +45,11 @@ input[type="time"],
 input[type="url"],
 textarea,
 select {
-  background: rgba(255,255,255,0.1);
-  border: none;
+  background: #ECE9E6; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to left, #ECE9E6 , #FFFFFF); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to left, #ECE9E6 , #FFFFFF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */: linear-gradient(to left, #abbaab , #ffffff); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */;
+  border-style: dotted;
+  border-width: thin;
   font-size: 16px;
   height: auto;
   margin: 0;
@@ -64,7 +76,11 @@ select {
 button {
   padding: 19px 39px 18px 39px;
   color: #FFF;
-  background-color: #cf5f7a;
+
+  background: #DE6262; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to left, #DE6262 , #FFB88C); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to left, #DE6262 , #FFB88C); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
   font-size: 18px;
   text-align: center;
   font-style: normal;
@@ -97,7 +113,9 @@ label.light {
 }
 
 .number {
-  background-color: #cf5f7a;
+  background: #085078; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to left, #085078 , #85D8CE); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to left, #085078 , #85D8CE); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   color: #fff;
   height: 30px;
   width: 30px;

@@ -9,6 +9,13 @@ body {
   color: #384047;
 }
 
+.main-nav {
+  list-style: none;
+  text-align: right;
+  margin-top: 2%;
+  margin-right: 5%;
+}
+
 form {
   max-width: 300px;
   margin: 10px auto;
